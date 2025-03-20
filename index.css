@@ -1,0 +1,141 @@
+#my1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: floralwhite;
+
+}
+
+#my1 nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#my1 nav ul a {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-style: unset;
+}
+
+#my1 img {
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+}
+
+#my2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    font-size: large;
+    margin-left: 300px;
+
+}
+
+.icon li {
+    list-style: none;
+
+}
+
+.icon li a {
+    text-decoration: none;
+    margin-right: 200px;
+    color: black;
+}
+
+.firstpage {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-left: 150px;
+    line-height: 1%;
+    margin-top: 150px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.firstpage1 {
+    margin-left: 150px;
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    border: 50px colorrgba(233, 15, 229, 0.861);
+    margin-bottom: 5px;
+    
+}
+
+.firstpage1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.firstpage1 img {
+    width: 600px;
+    height: 350px;
+    margin-left: 600px;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+
+
+}
+
+/* .firstpage2 a{ 
+    margin-left: 150px;
+    color: rgb(252, 38, 191);
+    list-style-type: none;
+    text-decoration: none;
+    border: 50px colorrgba(233, 15, 229, 0.861);
+  margin-bottom: 5px; */
+
+.circle {
+    height: 600px;
+    width: 600px;
+    border: 5px solid palevioletred;
+    border-radius: 50%;
+    margin-left: 900px;
+    background-color: palevioletred;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+}
+
+.circle2 {
+    height: 700px;
+    width: 700px;
+    border: 5px solid rgb(245, 186, 118);
+    border-radius: 50%;
+    margin-left: 1000px;
+    background-color: rgb(254, 186, 118);
+    margin-bottom: 20%;
+    position: absolute;
+    top: 10%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.icon{
+    font-size: large;
+   display: flex;
+   
+   
+}
+.fa-user{
+    display: flex;
+    margin-left: -70%;
+}
+.fa-magnifying-glass{
+    display: flex;
+    gap: 10px;
+    margin-left: 30%;
+}
