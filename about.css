@@ -63,13 +63,13 @@
 
    .fa-user {
        display: flex;
-       margin-left: -65%;
+       margin-left: -165px;
    }
 
    .fa-magnifying-glass {
        display: flex;
        gap: 10px;
-       margin-left: 40%;
+       margin-left: -280%;
    }
    .cup img {
        width: 500px;

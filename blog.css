@@ -1,0 +1,10 @@
+.blog{
+    height: 200px;
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+    font-size: large;
+    /* align-items: center; */
+}

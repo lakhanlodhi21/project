@@ -1,0 +1,139 @@
+#head1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: floralwhite;
+    border: 1px solid palevioletred;
+    /* position: fixed;
+    top: 1.5%; */
+}
+
+#head1 img {
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+}
+
+#head1 nav {
+    display: flex;
+    align-items: center;
+}
+
+#head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-left: 310px;
+    list-style: none;
+    font-size: large;
+}
+
+#head2 li a:hover {
+    color: rgb(252, 149, 196);
+    font-size: larger;
+}
+
+#head2 li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.icon li {
+    list-style: none;
+}
+
+.icon li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    margin-right: 170px;
+}
+
+.icon a:hover {
+    color: rgb(252, 149, 196);
+    font-size: larger;
+}
+
+.icon {
+    font-size: large;
+    display: flex;
+}
+
+.fa-user {
+    display: flex;
+    margin-left: -165px;
+}
+
+.fa-magnifying-glass {
+    display: flex;
+    gap: 10px;
+    margin-left: -280%;
+}
+#icecreamservice {
+    font-size: larger;
+    margin-left: 300px;
+    margin-top: 5%;
+}
+
+#boxes1 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    position: absolute;
+    top: 15%;
+}
+
+#boxes1 div {
+    height: 250px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+#boxes1 img {
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#boxes1 p {
+    font-size: x-large;
+    margin-left: 70px;
+    /* margin-top: 5px; */
+    position: absolute;
+    top: 30%;
+}
+
+#boxes1 div li {
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.button4 a {
+    width: 8%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 149, 196);
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 680px;
+    position: absolute;
+    top: 90%;
+}
+
+.button4 a:hover {
+    background-color: rgb(242, 9, 9);
+    font-size: larger;
+}

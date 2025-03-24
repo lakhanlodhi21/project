@@ -1,0 +1,146 @@
+#head1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: floralwhite;
+    border: 1px solid palevioletred;
+    /* position: fixed;
+    top: 1.5%; */
+}
+
+#head1 img {
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+}
+
+#head1 nav {
+    display: flex;
+    align-items: center;
+}
+
+#head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-left: 310px;
+    list-style: none;
+    font-size: large;
+}
+
+#head2 li a:hover {
+    color: rgb(252, 149, 196);
+    font-size: larger;
+}
+
+#head2 li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.icon li {
+    list-style: none;
+}
+
+.icon li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    margin-right: 170px;
+}
+
+.icon a:hover {
+    color: rgb(252, 149, 196);
+    font-size: larger;
+}
+
+.icon {
+    font-size: large;
+    display: flex;
+}
+
+.fa-user {
+    display: flex;
+    margin-left: -165px;
+}
+
+.fa-magnifying-glass {
+    display: flex;
+    gap: 10px;
+    margin-left: -280%;
+}
+#creamsection {
+    font-size: x-large;
+    margin-left: 250px;
+    position: absolute;
+    top: 20%;
+    line-height: 50%;
+}
+
+.button2 a:hover {
+    background-color: rgb(242, 9, 9);
+    font-size: larger;
+}
+
+#boxes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    position: absolute;
+    top: 35%;
+
+}
+
+#boxes div {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    /* box-shadow: horizontal Blur spread color; */
+    /* box-sizing: border-box; */
+}
+
+#boxes img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 27px; */
+}
+
+#boxes img:hover {
+    width: 110%;
+    height: 110%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.button3 a {
+    width: 8%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 149, 196);
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 700px;
+    position: absolute;
+    top: 140%;
+}
+
+.button3 a:hover {
+    background-color: rgb(242, 9, 9);
+    font-size: larger;
+}
