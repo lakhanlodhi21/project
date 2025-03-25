@@ -86,6 +86,8 @@
       font-size: 18px;
   }
 
+  
+
   #main1 a:hover {
       background-color: rgb(242, 9, 9);
       font-size: larger;
@@ -299,5 +301,158 @@
       background-color: rgb(242, 9, 9);
       font-size: larger;
   }
+
+ @media(max-width:430px){
+
+    .circle {
+            height: 250px;
+            width: 250px;
+            border: 5px solid palevioletred;
+            border-radius: 50%;
+            margin-left: 0px;
+            background-color: palevioletred;
+            margin-bottom: 10%;
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            z-index: 1;
+        }
+
+     .cup img {
+         width: 200px;
+         height: 200px;
+         margin-top: 0px;
+         margin-left: 0px;
+      }
+
+  #main1 img {
+      width: 250px;
+      height: 250px;
+      margin-left: 0px;
+      position: absolute;
+      z-index: 3;
+      top: 10%;
+      left: 640px;
+  }
+
+  #main1 {
+      margin-left: 150px;
+      margin-top: 90px;
+      font-size: 18px;
+  }
+
+ }
+ @media(max-width:430px){
+#main h1{
+
+
+}
+
+}
+@media (max-width:430px) {
+    
+    .about{
+        left: 16px;
+    }
+    .about1{
+       left:  16px;
+    }
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 25%;
+}
+
+.contact-container {
+    width: 45%;
+}
+
+.contact-container h2 {
+    font-size: 32px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #888;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-container form button {
+    padding: 10px;
+    background: palevioletred;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+/* .contact-container form button :hover{
+    background-color: rgb(242, 9, 9);
+    font-size: larger;
+   } */
+
+.contact-info {
+    width: 45%;
+}
+
+.newsletter {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background: pink;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
  
